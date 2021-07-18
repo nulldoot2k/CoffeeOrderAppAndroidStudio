@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="90dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/login_order_coffee_app">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dangnhap"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="@fonts/nabila"
+        />
+
+    <LinearLayout
+        android:id="@+id/lnKhungDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp">
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtEmailLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_36dp"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#FAF8F8"
+            android:textSize="30sp"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/black"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:textColorHint="#FAF8F8"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#FFFFFF"
+            app:met_minCharacters="6"
+            app:met_singleLineEllipsis="true"
+            android:drawableLeft="@drawable/ic_lock_black_36dp"
+            android:drawablePadding="@dimen/size10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/ckbRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:outlineAmbientShadowColor="@color/colorWhite"
+                android:outlineSpotShadowColor="@color/colorWhite"
+                android:paddingLeft="10dp"
+                android:text="Nhớ tài khoản"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:layout_weight="1"
+                android:background="@drawable/duongvien_xanh"
+                android:text="Đăng nhập"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu?"
+            android:textColor="@color/colorBlack"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

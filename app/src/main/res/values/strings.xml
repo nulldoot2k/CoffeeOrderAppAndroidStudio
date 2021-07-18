@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Order Coffee by DATV</string>
+
+    <!--    login   -->
+
+    <string name="tendangnhap">Email</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="quenatkhau">Đổi mật khẩu</string>
+    <string name="pass">Mật khẩu ( >6 ký tự )</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="address">Địa chỉ</string>
+    <string name="name">Họ tên</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_forgot_pass">ForgotPassActivity</string>
+
+    <string name="title_activity_restaurent">RestaurentActivity</string>
+
+    <string name="facebook_app_id">100011372513939</string>
+    <string name="facebook_login_protocol_name">fb100011372513939</string>
+
+    <!--    product     -->
+    <string name="greentea">Trà xanh. Trộn với bạc hà,
+      sả và cỏ roi ngựa chanh, sau đó được làm ngọt vừa phải và cho vào ly lắc với đá, thật sảng khoái!</string>
+
+
+    <string name="latte">Một biến tấu nhỏ gọn có thể được thực hiện với bất kỳ loại trà Teavana mới nào được gọi là trà latte. Về cơ bản,
+        một ly trà là một phần trà nóng và sữa hấp bằng nhau.  </string>
+
+
+    <string name="orangesmoothie">Starbucks Orange Mango Smoothie. Một hỗn hợp bổ dưỡng của nước ép xoài cam tự nhiên,
+     toàn bộ chuối, sữa, whey protein, bột chất xơ và đá.</string>
+
+
+    <string name="orangevanilla">Nước giải khát hỗn hợp Vanilla Bean Crème Frappuccino®. Hỗn hợp béo ngậy và béo ngậy này gồm đậu vani, sữa và đá phủ trên
+     kem đánh bông đưa hương vị va-va-vani lên một cấp độ khác.</string>
+
+
+    <string name="cappcuni">Theo định nghĩa của Starbucks, cappuccino chủ yếu là bọt sữa, nặng hơn sữa rất nhiều. ... Cụ thể hơn, a
+     cappuccino được tạo thành từ những tách cà phê espresso, một nửa sữa hấp (2% theo mặc định,) </string>
+
+    <string name="thaitea">Trà Thái được làm từ trà đen pha đặc, thường được thêm gia vị với các thành phần như hoa hồi,
+     me nghiền, thảo quả</string>
+    <string name="tea">Ngay bên cạnh nước, trà được ca ngợi là thức uống được tiêu thụ nhiều nhất trên thế giới. Từng giọt trà
+     đến từ cùng một loại thực vật</string>
+    <string name="bubbletea">Bubble Tea là cái tên được đặt cho nhiều loại hương vị tươi mát
+     Các loại trà trái cây và trà sữa phục vụ đá lạnh hoặc trà nóng với dai
+     những viên khoai mì mà bạn hút qua một cái ống hút to béo!.</string>
+    <string name="match">Matcha kem mịn và ngọt vừa phải, dùng với sữa hấp. Điều này
+     yêu thích sẽ vận chuyển các giác quan của bạn đến niềm vui xanh thuần khiết. </string>
+
+
+</resources>
